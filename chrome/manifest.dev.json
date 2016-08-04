@@ -20,7 +20,8 @@
   },
   "permissions": [ "contextMenus", "management", "tabs", "storage",
     "cookies",
-    "https://mail.google.com/"
+    "http://mail.google.com/"
+//    "*://*.google.com/*"
   ],
   "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 'unsafe-eval'; connect-src https://twitter.com https://mail.google.com http://localhost:3000 https://localhost:3000; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
 }
