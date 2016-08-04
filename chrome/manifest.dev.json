@@ -7,12 +7,6 @@
     "default_title": "React Chrome Extension Example",
     "default_popup": "popup.html"
   },
-  "content_scripts": [
-    {
-      "matches": ["https://mail.google.com/*"],
-      "js": ["content.js"]
-    }
-  ],
   "icons": {
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",
